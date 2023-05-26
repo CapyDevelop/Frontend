@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    display: flex;
+    margin-top: 23px;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #AB4E3C;
+    
+}
+
+.logo{
+    margin-right: 15px;
+}
+
+.nameLogo{
+}
