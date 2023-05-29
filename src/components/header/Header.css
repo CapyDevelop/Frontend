@@ -20,5 +20,26 @@ header{
     margin-right: 15px;
 }
 
-.nameLogo{
+/* @media (max-width: 1024){
+    .container{
+        max-width: 634px;
+        margin: 0 auto;
+        padding: 0%;
+    }
+    .header{
+        display: flex;
+        justify-content: center;
+    }
 }
+ 
+@media (max-width: 512){
+    .container{
+        max-width: 634px;
+        margin: 0 auto;
+        padding: 0%;
+    }
+    header{
+        display: flex;
+        justify-content: center;
+    }
+} */

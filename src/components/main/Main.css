@@ -3,12 +3,13 @@
 }
 
 main{
+    flex-grow: 2;
+    display: block;
     width: 100%;
-    height: 551px;
+    height: 100%;
     margin-top: 52px;
     background-color: #AB4E3C;
     border-radius: 36px;
-    margin-bottom: 52px;
     justify-content: space-between;
 }
 
@@ -83,24 +84,27 @@ main{
     height: 40px;
     left: 260px;
     top: 421px;
-    background: #FFFFFF;
     border-radius: 10px;
     margin-left: 63px;
+    color: rgba(171, 78, 60, 0.58);
 }
-
+::placeholder{
+    color: rgba(171, 78, 60, 0.58);
+}
 .fieldlogin{
-    width: 272px;
-    height: 18px;
-    left: 279px;
-    top: 429px;
+    display: block;
+    width: 300px;
+    height: 40px;
+    padding-left: 19px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: none;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
     color: rgba(171, 78, 60, 0.58);
-    margin-left: 19px;
-    margin-top: 8px;
 }
 
 .password{
@@ -118,19 +122,19 @@ main{
 }
 
 .passwordstars{
-    width: 75px;
-    height: 19px;
-    left: 281px;
-    top: 506px;
+    padding-left: 19px;
+    display: block;
+    width: 300px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: none;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
     color: rgba(171, 78, 60, 0.58);
-    margin-left: 21px;
-    margin-top: 13px;
-    text-align: center;
 }
 
 .buttonlogIn{
@@ -139,7 +143,6 @@ main{
     background: #FF8E3D;
     box-shadow: 0px 0px 25px rgba(255, 194, 38, 0.42);
     border-radius: 10px;
-    /* left: 318px; */
     top: 570px;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -149,13 +152,25 @@ main{
     color: #FFFFFF;
     margin-left: 63px;
     margin-top: 26px;
-    padding: 13px 0px 0px 0px;
     text-align: center;
+    cursor: pointer;
+    border: none;
 }
 
+.buttonlogIn:hover{
+    box-shadow: 0px 0px 35px rgba(183, 137, 20, 0.42);
+}
 
 .rightpart{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+}
+
+@media (max-width: 1024){
+
+}
+ 
+@media (max-width: 512){
+    
 }

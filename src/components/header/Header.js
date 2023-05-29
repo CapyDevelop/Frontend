@@ -2,7 +2,6 @@ import Container from "../container/Container";
 import "./Header.css"
 function Header() {
     return(
-        // описать по-классике  header
         <div className="header">
             <Container>
                 <header>
