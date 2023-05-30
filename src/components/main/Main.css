@@ -168,9 +168,17 @@ main{
 }
 
 @media (max-width: 1024){
-
+    .container{
+        max-width: 634px;
+        margin: 0 auto;
+        padding: 0%;
+    }
 }
  
 @media (max-width: 512){
-    
+    .container{
+        max-width: 634px;
+        margin: 0 auto;
+        padding: 0%;
+    }
 }

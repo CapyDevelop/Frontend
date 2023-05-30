@@ -40,3 +40,19 @@ footer{
     background-color: #AB4E3C;
     padding-top: 29px; 
 }
+
+@media (max-width: 1024px){
+    .container{
+        max-width: 634px;
+        margin: 0 auto;
+        padding: 0%;
+    }
+}
+ 
+@media (max-width: 512px){
+    .container{
+        max-width: 634px;
+        margin: 0 auto;
+        padding: 0%;
+    }
+}
